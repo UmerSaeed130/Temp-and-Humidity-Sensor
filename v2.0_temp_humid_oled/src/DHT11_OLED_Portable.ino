@@ -56,7 +56,7 @@ void ReadSensorData()
 
     if (isnan(humidity) || isnan(tempC)) 
   {
-    Serial.println("Hello World!");
+    Serial.println("No reading detected!!!");
   }
 }
 
